@@ -1,0 +1,465 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    padding-right: 0;
+}
+
+
+body {
+        font-family: Georgia, 'Times New Roman', Times, serif; color: rgb(255, 255, 255);
+        background-color:  rgb(255, 198, 42);
+        width: 1200px;
+        height: 900px;
+      
+         }
+
+       
+nav {
+    width: 400px;
+    height: 50px;
+    padding:  0em;
+    
+    
+
+}
+
+
+
+header {
+        
+        width: 1263px;
+        height: 320px;
+        background-color:  #b9b9b9;
+      
+}
+
+/*início header */
+
+.logo {
+
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    float: center;
+    z-index: 5;
+    padding-left: 5em;
+    padding-top: 2em;
+    
+    }
+
+    .developed {
+        font-size: 12px ;
+        float: right;
+        position: absolute;
+        color: #ffffff;
+        padding: 20px;
+        padding-left: 74em;
+        padding-top: 20em;
+    }
+
+    .greatest {
+        
+        font-size: 70px;
+        float: right;
+        padding-right: 3em ;
+        padding-top: 1em;
+        color: #273677;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    }
+
+   
+
+    /*fim header */
+
+
+  /* início chamadas título */
+  #ultimasnoticias1{
+    font-size: 35px;
+    padding: 15px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: rgb(0, 0, 0);
+}
+
+#forthegame {
+    font-size: 35px;
+    padding: 15px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: rgb(0, 0, 0);
+
+}
+
+/* fim chamada títulos */
+
+
+
+
+/*início notícias */
+
+
+#ultimasnoticias {
+
+    width: 1208px ;
+    height: 320px;
+    background-color: #273677;
+    padding-top: 5em;
+    padding-left: 5em;
+    
+    font-size: 11px;
+    display: flex;
+    
+    }
+
+
+#noticia1 {
+
+    float: center;
+    padding-left: 1em ;
+    width: 350px;
+    
+}
+
+#noticia2 {
+    float: center;
+    padding-left: 1em ;
+    width: 350px;
+    
+    
+
+}
+
+#noticia3 {
+    float: center;
+    padding-left: 1em;
+    width: 350px;
+}
+
+
+
+#highperformanceimg {
+    float: left;
+    padding-bottom: 3em;
+    padding-top: 3em;
+    
+}
+
+#moreinfo1   {
+    color: #ffffff;
+    text-decoration: underline;
+    font-size: 15px;
+    cursor: pointer;
+    
+      }
+
+
+      #moreinfo1filho :hover {
+        background-color: #ffffff;
+        color: #000000;
+        font-size: 20px;
+        padding: 3px;
+
+      }
+
+#moreinfonoticia1 :hover {
+    
+    background-color: #ffffff;
+    color: #000000;
+    padding: 5px;
+    cursor: pointer;
+    
+
+}
+
+/* fim notícias */
+
+
+/* início conteúdo */
+
+
+#textone {
+    text-align: left;
+    padding: 50px;
+    font-size: 20px;
+    color: #e4e9ff;
+    padding-top: 4em;
+}
+
+
+#texttwo {
+    
+    padding: 0 2em;
+    padding-top: 2em;
+    font-size: 25px;
+    float: left;
+    color: #e4e9ff;
+
+}
+
+#text3 {
+
+    padding: 0 2em;
+    padding-top: 2em;
+    font-size: 40px;
+    float: right;
+    color: #ffffff;
+
+}
+
+#text4 {
+
+    padding: 0 2em;
+    padding-top: 2em;
+    font-size: 45px;
+    float: left;
+    color: #e4e9ff;
+}
+
+#timeimg {
+    float: right;
+    padding-right: 3em;
+    padding-top: 3em;
+    padding-bottom: 2em;
+
+}
+
+#agendaimg {
+    float: left;
+    padding-left: 3em;
+    padding-top: 3em;
+    padding-bottom: 2em;
+  
+}
+
+
+
+#kidsimg {
+
+    float: right;
+    padding-right: 8em;
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+
+
+
+#conteudo {
+    width: 1263px;
+    float: left;
+    background: rgb(20, 20, 20);
+}
+
+#conteudo2 {
+    width: 1263px;
+    float: left;
+    background: #273677;
+
+}
+
+#conteudo3 {
+    width: 1263px;
+    float: left;
+    background: rgb(20, 20, 20);
+
+
+}
+
+#conteudo4 {
+    width: 1263px;
+    float: left;
+    background: #273677;
+
+}
+
+
+/* fim conteúdo */
+
+
+
+/*início navegação */
+
+ul {
+    
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: serif;
+    list-style: none;
+    width: 1263px;
+    background: #273677;
+    float: left;
+}
+
+ul li  {
+    float: left;
+   
+
+}
+
+ul a  {
+    display: block;
+    padding: 0 2em;
+    line-height: 3em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+
+a:hover  {
+    background-color: #ff1f1f;
+}
+
+/*fim navegação*/
+
+
+/* Início footer */
+#footer {
+
+
+    bottom: 10;
+    background-color: #b9b9b9;
+    color: rgb(0, 0, 0);
+    width: 1231px;
+    text-align: center;
+    margin-top: 3em;
+    padding:  1em;
+    
+      }
+
+#footertext {
+    padding-top: 1em;
+    }
+
+.textfooter {
+    padding-top: 5em;
+     font-size: 15px;
+     text-align: center;
+
+}    
+
+
+
+/* fim footer */
+
+
+
+/*inicio Formulário de contato*/
+
+
+
+
+.container {
+
+font-size: 20px;
+padding: 10em;
+justify-content: center;
+align-items: center;
+padding-top: 10px;
+padding-bottom: 20px;
+
+
+
+
+}
+
+.form {
+    padding: 40px;
+    
+}
+
+.formcontrol {
+    
+    padding: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.formcontrol label {
+
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.formcontrol input {
+    border: 2px solid;
+    display: block;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 10px;
+
+}
+.formcontrol i {
+    color: #000000;
+    position: absolute;
+    padding-top: 5px;
+    top: 55px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.formcontrol small { 
+    color: black;
+    position: absolute;
+    padding-top: 5px;
+    top: 55px;
+    right: 35px;
+    visibility: hidden;
+}
+
+.form button {
+    background-color: #d3d4d6;
+    border: 2px solid #a0a0a0;
+    color: #000000;
+    font-size: 14px;
+    width: 80px;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    float: right;
+  
+   
+    
+}
+
+
+.formcontrol.success input {
+
+    border-color: #36d830;
+}
+
+.formcontrol.error input {
+
+    border-color: #ff1f1f;
+}
+
+.formcontrol.success i.fa-check-circle {
+    color: #36d830;
+    visibility: visible;
+}
+
+.formcontrol.error i.fa-exclamation-circle {
+    color: #ff1f1f;
+    visibility: visible;
+}
+
+.formcontrol.error small {
+    visibility: visible;
+    color: #ff1f1f;
+}
+
+
+
+
+
+/*fim formulário de contato*/
+
